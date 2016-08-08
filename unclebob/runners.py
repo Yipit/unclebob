@@ -35,7 +35,7 @@ from django.conf import settings
 from django.core import management
 from django.test.runner import DiscoverRunner
 
-from unclebob.options import basic
+from .options import basic
 
 def unique(lst):
     l = []
